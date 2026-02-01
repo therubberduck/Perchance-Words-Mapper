@@ -1,0 +1,581 @@
+  Cabaguil
+    orig=Cabaguil is one of the thirteen Maya gods who created the world. Also called "Heart of the Sky," Cabaguil is a sky god.
+    tags=mythic,america,belize,elsalvador,guatemala,honduras,mexico,maya,mperson
+  Cabal
+    orig=King Arthur's dog
+    tags=mythic,europe,england,mperson
+  Cabal
+    orig=a group of persons secretly united in a plot
+    tags=word,english
+  Cabrakan
+    orig=a Mayan god of earthquakes and mountains.
+    tags=mythic,america,belize,elsalvador,guatemala,honduras,mexico,maya,mperson,mountain
+  Caca
+    orig=In ancient Roman religion and myth, Caca or Cacia is the giantess sister of Cacus, the son of Vulcan who stole cattle from Hercules during the course of his western labors. Caca betrays her brother by revealing the location of the cattle to Hercules, who had in turn stolen the cattle from Geryon. She has been seen as a sort of "proto-Vesta", a fire goddess sharing in her brother's Vulcan-inherited capacity for fire-breathing.
+    tags=mythic,oroman,europe,italy,mperson,fire
+  Cacao
+    orig=cacao bean : a dried, fermented, fatty seed of the fruit of a South American evergreen tree (Theobroma cacao of the family Sterculiaceae) that is used in making cocoa, chocolate, and cocoa butter
+    tags=word,plant
+  Cacia
+    orig=In ancient Roman religion and myth, Caca or Cacia is the giantess sister of Cacus, the son of Vulcan who stole cattle from Hercules during the course of his western labors. Caca betrays her brother by revealing the location of the cattle to Hercules, who had in turn stolen the cattle from Geryon. She has been seen as a sort of "proto-Vesta", a fire goddess sharing in her brother's Vulcan-inherited capacity for fire-breathing.
+    tags=mythic,oroman,europe,italy,mperson,fire
+  Cacus
+    orig=In Roman mythology, Cacus was a fire-breathing giant and the son of Vulcan. He was killed by Hercules after terrorizing the Aventine Hill before the founding of Rome.
+    tags=mythic,oroman,europe,italy,mperson,fire
+  Cadence
+    orig=In Western musical theory, a cadence is "a melodic or harmonic configuration that creates a sense of resolution (finality or pause)."
+    tags=word,english,music
+  Cadenza
+    orig=A solo section, usually in a concerto or similar work, that is used to display the performer's technique, sometimes at considerable length
+    tags=word,music
+  Cadiz
+    orig=a city and port in southwestern Spain. One of the oldest continuously inhabited cities in Western Europe, with archaeological remains dating to 3100 years, was founded by the Phoenicians. It has been a principal home port of the Spanish Navy since the accession of the Spanish Bourbons in the 18th century. 
+    tags=place,europe,spain,war
+  Cador
+    orig=a legendary Duke of Cornwall presented as a relative of King Arthur. Arthur's future queen Guinevere was raised as Cador's ward. Cador is also said to be of Roman stock. His son Constantine was given the kingship of Britain by Arthur as the latter lay ailing on the field of Camlann.
+    tags=mythic,europe,england,mperson
+  Caecilius
+    orig=Roman family name  meaning "blind".
+    tags=name,europe,italy,oroman,sname
+  Caellus
+    orig=A city in the lands ruled by Galehaut, Arthur’s enemy-turned-ally in Arthurian mythology. The castle walls collapsed, foreshadowing Galehaut’s coming death.
+    tags=mythic,mplace,europe,england,wales,arthurian,fort,war,deathw
+  Caelus
+    orig=a primal god of the sky in Roman myth. The name of Caelus indicates that he was the Roman counterpart of the Greek god Uranus, who was of major importance in the theogonies of the Greeks, and the Jewish god Yahweh. Caelus begins to appear regularly in Augustan art and in connection with the cult of Mithras during the Imperial era. Vitruvius includes him among celestial gods whose temple-buildings (aedes) should be built open to the sky.
+    tags=mythic,oroman,europe,italy,mperson
+  Caer Dathal-Mathorig=In Arthurian mythology it is a stronghold and home of Arthur’s warriors Teregud, Caradawg, Sulyen, Bradwen, Moren, and Siawn – all sons of Iaen.
+    tags=mythic,mplace,europe,england,wales,arthurian,fort,war
+  Caer Feddwid
+    orig=In Arthurian mythology it is the Fort of Carousal, which is located in the Welsh Otherworld realm of Annwfn. Caer Feddwidd is a paradisiacal realm in which a fountain runs with wine and no one ever knowns illness or old age. 
+    tags=mythic,mplace,europe,england,wales,arthurian,entertainment,gaia
+  Caer Llundein
+    orig=An ancient name of London, the capital of England and the United Kingdom.
+    tags=place,europe,england,wales,arthurian
+  Caer Oeth
+    orig=A city in Arthurian mythology. Arthur was imprisoned in Caer Oeth for three days by Gwen Pendragon before he was transferred to another prison.
+    tags=mythic,mplace,europe,england,wales,arthurian,prison
+  Caer Siddi
+    orig=In Arthurian mythology it is the Fort of Carousal, which is located in the Welsh Otherworld realm of Annwfn. Caer Feddwidd is a paradisiacal realm in which a fountain runs with wine and no one ever knowns illness or old age. 
+    tags=mythic,mplace,europe,england,wales,arthurian,entertainment,gaia
+  Caer Wydyr
+    orig=A glass fort that is located in Annwfn, the Welsh Otherworld. 
+    tags=mythic,mplace,europe,england,wales,arthurian,fort,entertainment
+  Caerleon
+    orig=A historic town in Wales,  the site of a Roman fort and amphitheatre which the locals call the “Round Table”.<br><br>In Arthurian mythology this was Arthur’s favorite city in which to hold court. After Camelot, it is still possibly Arthur’s most famous court city and in some stories where the Knights of the Round Table were established.
+    tags=place,europe,england,wales,arthurian,entertainment
+  Caesar
+    orig=Gaius Julius Caesar (100 BC – 44 BC), was a Roman general and statesman. A member of the First Triumvirate, Caesar led the Roman armies in the Gallic Wars before defeating his political rival Pompey in a civil war, and subsequently became dictator from 49 BC until his assassination in 44 BC.
+    tags=person,europe,italy,war
+  Caesarea 
+    orig=was an ancient and medieval city in current-day Israel. During the early Roman period, Caesarea Maritima became the seat of the Roman procurators in the region. Caesarea was taken by Baldwin I in the wake of the First Crusade, in 1101. After fifteen days of resistance, the Crusader army broke through the defenses and proceeded to slaughter a portion of the male populace, enslave the women and children and loot the city. William of Tyre mentions the discovery of a "vessel of the most green colour, in the shape of a serving dish" which the Genuese thought to be made of emerald, and later identified as the Holy Chalice.
+    tags=place,mideast,israel,crusader,city
+  Cagn
+    orig=ǀKaggen (sometimes corrupted to Cagn) is Mantis, a demi-urge and folk hero of the ǀXam people of southern Africa. He is a trickster god who can shape shift, usually taking the form of a praying mantis but also a bull eland, a louse, a snake, and a caterpillar.
+    tags=mythic,africa,southafrica,xam,mperson
+  Cailleach 
+    orig=In Gaelic (Irish, Scottish and Manx) myth, the Cailleach is a divine hag and ancestor, associated with the creation of the landscape and with the weather, especially storms and winter.
+    tags=mythic,europe,celtic,gaelic,ireland,scotland,mperson,cold,ice
+  Cairo
+    orig=Capital of Egypt
+    tags=place,africa,egypt
+  Caïssa
+    orig=a fictional (anachronistic) Thracian dryad portrayed as the goddess of chess. She was first mentioned during the Renaissance by Italian poet Hieronymus Vida, and then picked up by other poets and is today mentioned in chess; "Caïssa was with me".
+    tags=fictional,ogreek,mperson,games
+  Caladan
+    orig=Fictional from Frank Herbert's Dune; a lush oceanic world, and the ancestral home of House Atreides.
+    tags=fictional,dune,seaw
+  Caladrius 
+    orig=according to Roman mythology, is a snow-white bird that lives in the king's house. It is said to be able to take the sickness into itself and then fly away, dispersing the sickness and healing both itself and the sick person.
+    tags=mythic,europe,italy,oroman,monster
+  Calandra 
+    orig=The corn bunting (Emberiza calandra) is a passerine bird whose range extends from Western Europe and North Africa across to northwestern China. The song of the male is a repetitive metallic sound, usually likened to jangling keys, which is given from a low bush, fence post or telephone wires.
+    tags=word,animal,asia,europe,mideast
+  Calculus
+    orig=Math: a way of making calculations about continuously varying quantities such as the speed of a falling object or the slope of a curve.
+    tags=word,english,math
+  Calcutta 
+    orig=Kolkata, also known as Calcutta, is the capital of the Indian state of West Bengal. 
+    tags=place,city,asia,india
+  Caldera
+    orig=a large depression formed when a volcano erupts and collapses
+    tags=word,english,geology
+  Caleb
+    orig=is a figure who appears in the Hebrew Bible as a representative of the Tribe of Judah during the Israelites' journey to the Promised Land. According to Numbers 13, Caleb, the son of Jephunneh, was one of the twelve spies sent by Moses into Canaan. Their task, over a period of 40 days, was to explore the Negev and surrounding area.. Moses also asked them to be courageous and to return with samples of local produce.
+    tags=mythic,judaism,mperson
+  Caledonia
+    orig=the Latin name used by the Roman Empire to refer to the part of Great Britain  that lies north of the River Forth, which includes most of the land area of Scotland. Today, it is used as a romantic or poetic name for all of Scotland.
+    tags=place,europe,scotland
+  Caleque
+    orig=A castle in Arthurian mythology ruled by Count Dangis. Fleeing Arthur’s court for Joyous Guard, Lancelot and Guenevere lodged at Caleque for one night. Count Dangis, a friend of Lancelot, promised to support Lancelot in his struggle against Arthur, and he placed Caleque at Lancelot’s disposal.
+    tags=mythic,mplace,europe,england,wales,arthurian,fort,war
+  Caleuche  
+    orig=Ghost ship from the Chilote mythology of Southern Chile. A popular version of this tale states that the ship recovers bodies of the dead from the water and gives them a new life as crewmembers who will pass eternity partying and celebrating.
+    tags=mythic,america,chile
+  Calfle
+    orig=A town on the coast of Wales. In Arthurian mythology Perceval’s mother here fled after the death of her husband. After organizing her affairs, she left Calfle for the forest, where she raised Perceval in seclusion.
+    tags=mythic,mplace,europe,england,wales,arthurian,wet
+  Calico
+    orig=John Rackham (1682-1720), commonly known as Calico Jack, was an English pirate captain operating in the Bahamas and in Cuba during the early 18th century. His nickname was derived from the calico clothing that he wore, while Jack is a nickname for "John". He is most remembered for having two female crew members: Mary Read and his lover, Anne Bonny.
+    tags=person,america,caribbean,europe,england,nautical
+  Callisto
+    orig=In Greek mythology Callisto was a nymph. She became pregnant with Zeus, after which a furious Hera, the wife of Zeus, transformed her into a bear. Later, just as she was about to be killed by her son when he was hunting, she was set among the stars as Ursa Major ("the Great Bear") by Zeus.
+    tags=mythic,europe,greece,ogreek,mperson,astronomy
+  Caloise
+    orig=A forest in Arthurian mythology through which Galahad and Perceval’s sister rode during the Grail Quest.
+    tags=mythic,mplace,europe,england,wales,arthurian,wet
+  Calvary
+    orig=a site immediately outside Jerusalem's walls where Jesus was said to have been crucified according to the canonical Gospels.
+    tags=religion,christian,israel,rplace
+  Camaxtli 
+    orig=An aspect of the Aztec god Mixcoatl, worshipped as a god of war in a few of the Aztec cities.
+    tags=mythic,america,mexico,aztec,mperson
+  Camazotz
+    orig=a bat spirit at the service of the lords of the underworld in Maya mythology. Camazotz means "death bat" in the Kʼicheʼ language. In Mesoamerica generally, the bat is often associated with night, death, and sacrifice.
+    tags=mythic,maya,america,mexico,mperson,deathw,nightw
+  Cambenic
+    orig=A duchy in northern Britain in Arthurian mythology. It contained the city of Clarence. Ruled by Duke Escant during the early days of Arthur’s reign, Cambenic was one of the countries in rebellion against Arthur. It was soon invaded by Saxons, and was the site of an epic battle in which Gawaine and his father and brothers showed extraordinary prowess. The Saxons were eventually repelled, and Cambenic made peace with Arthur.
+    tags=mythic,mplace,europe,england,wales,arthurian,war
+  Cambridge
+    orig=a university city and the county town in Cambridgeshire, England. The city is most famous as the home of the University of Cambridge, which was founded in 1209 and consistently ranks among the best universities in the world.
+    tags=place,city,europe,england
+  Cameliard
+    orig=Cameliard is a fictional or legendary realm that appears in Arthurian legend and literature. Cameliard may be mentioned in the context of various quests and adventures undertaken by King Arthur and his knights. The kingdom might be the setting for events such as tournaments, battles, or diplomatic interactions within the Arthurian narrative.
+    tags=mythic,mplace,europe,england,wales,arthurian
+  Camelot
+    orig=a castle and court associated with the legendary King Arthur. Absent in the early Arthurian material, Camelot first appeared in 12th-century French romances and, since the Lancelot-Grail cycle, eventually came to be described as the fantastic capital of Arthur's realm and a symbol of the Arthurian world.
+    tags=mythic,europe,england,wales,mplace,arthurian
+  Camenae
+    orig=In Roman mythology, were originally goddesses of childbirth, wells and fountains, and also prophetic deities. There were four Camenae: Carmenta, Egeria, Antevorta, and Postverta.
+    tags=mythic,oroman,europe,italy,mperson
+  Camlann
+    orig=The Battle of Camlann is the legendary final battle of King Arthur, in which Arthur either died or was fatally wounded while fighting either with or against Mordred, who also perished. Later became known as the Battle of Salisbury.
+    tags=mythic,europe,england,wales,mplace,war,arthurian
+  Campbell
+    orig=American (US) surname.
+    tags=name,america,us,sname
+  Camulus 
+    orig=Celtic god of war. Camulus was an important god of Roman Britain and Gaul.
+    tags=mythic,europe,celtic,england,belgium,france,mperson
+  Cana
+    orig=the location of the Wedding at Cana, at which the miracle of turning water into wine took place in the Gospel of John.
+    tags=place,mideast,crusader,mythic,christian
+  Canaan
+    orig=Region on the Eastern shore of the Mediterranean
+    tags=place,mideast,israel,religion,judaism,christian
+  Canberra
+    orig=Capital of Australia
+    tags=place,pacific,australia
+  Candela
+    orig=The base unit of luminous intensity in the International System of Units (SI); that is, luminous power per unit solid angle emitted by a point light source in a particular direction.
+    tags=word,science
+  Cangdi
+    orig=Chinese god associated with the essence of wood and spring, for which he is worshipped as the god of fertility. The Bluegreen Dragon. His female consort is the goddess of fertility Bixia.
+    tags=mythic,asia,china,ochina,mperson
+  Canguin Rock
+    orig=In Arthurian mythology when Ygerne, wife of Uther Pendragon, lost her husband, she went to Galloway. There she constructed the Rock of Canguin, a castle where she still lives. The queen of the castle brought a clerk whom was skilled in astronomy. This clerk created enchantments in the castle which only a flawless knight could survive. Sir Gawain enters the castle and achieves the adventures within – lying on a Perilous Bed and killing a fierce lion – and lifts the enchantments from the castle.
+    tags=mythic,mplace,europe,england,wales,arthurian,deathw,fort,war,prison
+  Canid
+    orig=any of a family (Canidae) of carnivorous animals that includes the wolves, jackals, foxes, coyote, and the domestic dog
+    tags=word,animal
+  Canoel
+    orig=The capital city of Parmenie, homeland of the knight Tristan in Arthurian mythology. It was a port town, situated on the English Channel.
+    tags=mythic,mplace,europe,england,wales,arthurian,money,seaw
+  Canola 
+    orig=In Irish mythology, was the mythical inventor of the harp, and often referenced as an Irish goddess of music, inspiration and dreams.
+    tags=mythic,europe,ireland,celtic,oirish,mperson,music
+  Canopus
+    orig=In Greek mythology he was the pilot of the ship of King Menelaus of Sparta during the Trojan War.
+    tags=mythic,europe,greece,ogreek,mperson
+  Canopus
+    orig=An ancient city in northern Egypt, known for extravagance. It was the principal port in Egypt for Greek trade before the foundation of Alexandria, along with Naucratis and Heracleion.
+    tags=place,africa,egypt,oegypt,city
+  Canterbury
+    orig=a cathedral city and UNESCO World Heritage Site, situated in Southeastern England. The Archbishop of Canterbury is the primate of the Church of England and the worldwide Anglican Communion owing to the importance of St Augustine, who served as the apostle to the pagan Kingdom of Kent around the turn of the 7th century. The city's cathedral became a major focus of pilgrimage following the 1170 martyrdom of Thomas Becket.
+    tags=place,city,europe,england,christian
+  Cantilena
+    orig=(Italian for "lullaby" and Latin for "old, familiar song") is a vocal melody or instrumental passage in a smooth, lyrical style.
+    tags=word,latin,italy,music
+  Canto
+    orig=musical term: Chorus; choral; chant
+    tags=word,music
+  Cantref Gwaelod
+    orig=In Welsh mythology, Cantre'r Gwaelod, also known as Cantref Gwaelod, was a legendary ancient sunken kingdom. Cantre'r Gwaelod was an area of land which, according to legend, was located in an area west of present-day Wales which is now under the waters of Cardigan Bay. Cantre'r Gwaelod's capital was Caer Wyddno, seat of the ruler Gwyddno Garanhir. Two princes of the realm held charge over the dyke. One of these princes, called Seithenyn, is described in one version as a notorious drunkard and carouser, and it was through his negligence that the sea swept through the open floodgates, ruining the land. The church bells of Cantre'r Gwaelod are said to ring out in times of danger.
+    tags=mythic,europe,wales,mplace
+  Capax Infiniti
+    orig=Latin: "holding the infinite"; Capability of achieving goals by force of many instead of a single individual.
+    tags=word,latin
+  Capella
+    orig=the brightest star in the constellation of Auriga, the sixth-brightest star in the night sky, and the third-brightest in the northern celestial hemisphere after Arcturus and Vega. Its name meaning "little goat" in Latin, Capella depicted the goat Amalthea that suckled Zeus in classical mythology.
+    tags=mythic,europe,greece,ogreek,mperson,astronomy
+  Capernaum
+    orig=a fishing village established during the time of the Hasmoneans, located on the northern shore of the Sea of Galilee in Israel. The town is cited in all four gospels where it was reported to have been the hometown of the tax collector Matthew, and located not far from Bethsaida, the hometown of the apostles Simon Peter, Andrew, James and John.
+    tags=place,mideast,israel,crusader,city,christian
+  Capri 
+    orig=in general is named for the azure-cyan colour of the Mediterranean Sea around the island of Capri off Italy, the site of several villas belonging to the Roman Emperor Tiberius, including his Imperial residence in his later years, the Villa Jovis. Specifically, the colour Capri is named after the colour of the Blue Grotto on the island of Capri as it appears on a bright sunny day. Today the island of Capri is a resort island popular with tourists.
+    tags=word,color
+  Caprica
+    orig=Fictional (Battlestar Galactica)
+    tags=fictional
+  Capricornus
+    orig=one of the constellations of the zodiac. Its name is Latin for "horned goat" or "goat horn" or "having horns like a goat's", and it is commonly represented in the form of a sea goat: a mythical creature that is half goat, half fish. In Greek mythology, the constellation is sometimes identified as Amalthea, the goat that suckled the infant Zeus after his mother, Rhea, saved him from being devoured by his father, Cronos. Amalthea's broken horn was transformed into the cornucopia or "horn of plenty".
+    tags=mythic,greece,ogreek,monster,astronomy
+  Captain
+    orig=The person lawfully in command of a vessel. "Captain" is an informal title of respect given to the commander of a naval vessel regardless of his or her formal rank; aboard a merchant ship, the ship's captain is called her master.
+    tags=word,english,nautical
+  Capua
+    orig=The capital city of the sorcerer Clinschor, an antagonist of the knight Gawaine in Arthurian mythology.
+    tags=mythic,mplace,europe,england,wales,arthurian
+  Caput Mortuum
+    orig=Latin: "Dead head"; Originally an alchemical reference to the dead head or worthless residue left over from a reaction. Also used to refer to a freeloader or worthless element.
+    tags=word,latin,deathw
+  Caracas
+    orig=Capital of Venezuela
+    tags=place,america,venezuela
+  Caradoc
+    orig=Caradoc Vreichvras was a semi-legendary ancestor to the kings of Gwent. He may have lived during the 5th or 6th century. He is remembered as a Knight of the Round Table, under the names King Carados.
+    tags=mythic,europe,england,mperson
+  Carbonek
+    orig=Carbonek is primarily known as the castle or mystical place where the Grail is said to be kept. In Arthurian legend, the Holy Grail is the sacred cup or vessel associated with the Last Supper of Jesus Christ. The castle is a place of mystery, magic, and spiritual significance. The Knights of the Round Table, including Galahad, Percival, and Bors, undertake the quest to reach the Grail Castle and witness the Grail Procession.
+    tags=mythic,mplace,europe,england,wales,arthurian,fort,war,holy,gaia
+  Carbuncle 
+    orig=a legendary species of small animal in South American folklore, specifically in the mining folklore of northern Chile. The animal is said to contain riches of some sort; in some versions it is a precious stone that gives fortune and good luck to its owner. The description of the animal vary, one being "a smallish animal, with a shining mirror on its head, like a glowing coal".
+    tags=mythic,america,chile,monster,mining,money
+  Cardea
+    orig=the ancient Roman goddess of the hinge, Roman doors being hung on pivot hinges.
+    tags=mythic,oroman,europe,italy,mperson
+  Cardinal
+    orig=A leading dignitary of the Roman Catholic Church. Cardinals are nominated by the Pope, and form the Sacred College which elects succeeding popes (now invariably from among their own number).
+    tags=religion,christian,word
+  Cardinal
+    orig=A New World songbird of the bunting family, having a stout bill and typically a conspicuous crest. The male is partly or mostly red in colour.
+    tags=word,animal
+  Cardinal
+    orig=adjective: of the greatest importance; fundamental.
+    tags=word,adj,english
+  Cardinal
+    orig=Referring to the four main points of the compass: north, south, east, and west.
+    tags=word,english,nautical
+  Cardioid
+    orig=Math: the heart-shaped curve formed by a point on the circumference of a circle rolling around the edge of another circle of the same radius.
+    tags=word,math
+  Cargill
+    orig=Scottish surname. The multi-generational Cargill family owns Cargill Inc., one of the biggest privately owned enterprises in the US. This uber-wealthy family is also known for philanthropy and funding multiple not-for-profit organizations.
+    tags=name,europe,scotland,america,us,sname,money
+  Caribbea
+    orig=The Caribbean Sea is a sea of the Atlantic Ocean in the tropics of the Western Hemisphere.
+    tags=place,seaw,water,caribbean
+  Cariocecus
+    orig=the god of war in the mythology of various Iberian tribes, in the region then known as Hispania. Through conquest and cultural overlay, he became syncretised with the Ancient Rome god Mars and the Ancient Greek god Ares. The Lusitanians practiced human sacrifice and when a priest wounded a prisoner in the stomach they made predictions by the way the victim fell down and by the appearance of the victim's innards.
+    tags=mythic,europe,spain,lusitanian,celtic,oroman,mperson,war
+  Carman
+    orig=In Celtic mythology, was a warrior and sorceress from Athens who tried to invade Ireland in the days of the Tuatha Dé Danann, along with her three sons, Dub ("black"), Dother ("evil") and Dian ("violence"). She used her magical powers to destroy all the fruit of Ireland.
+    tags=mythic,europe,ireland,celtic,oirish,mperson,war
+  Carmenta
+    orig=In ancient Roman religion and myth, a goddess of childbirth and prophecy, associated with technological innovation as well as the protection of mothers and children and a patron of midwives. She was also said to have invented the Latin alphabet.
+    tags=mythic,oroman,europe,italy,mperson,science
+  Carmine 
+    orig=the general term for some deep red colours that are very slightly purplish but are generally slightly closer to red than the colour crimson is. Some rubies are coloured the colour shown below as rich carmine.
+    tags=word,color
+  Carnatic 
+    orig=The Carnatic region is the peninsular South Indian region between the Eastern Ghats and the Bay of Bengal. During the British era, demarcation was different, including Karnataka and the whole region south of Deccan with black soil. 
+    tags=place,asia,india,england
+  Carnegie
+    orig=Gaelic surname meaning "Fort at the gap". The Carnegies trace their success to Andrew Carnegie, the Scottish-American entrepreneur and industrialist. The steel industry started by Andrew Carnegie shaped the fortune of the US.
+    tags=name,europe,gaelic,america,us,sname,money,industry
+  Carnelian
+    orig=a color named after the carnelian variety of the mineral chalcedony. This semi-precious gemstone is noted for its rich shade of reddish-brown.
+    tags=word,color,adj
+  Carnisy
+    orig=A castle in Arthurian mythology  to which maidens bore the body of a unnamed king slain by the knight Lancelot during a forest encounter.
+    tags=mythic,mplace,europe,england,wales,arthurian,holy
+  Carol
+    orig=American (US) female first name. It was formerly a masculine name, derived from Carolus. The name can also be given in reference to the English vocabulary word, which means "song" or "hymn".
+    tags=name,america,us,fname
+  Carpenter's Walk
+    orig=On a tall ship, a is a narrow unlit passageway or bulkhead often with a low (four-foot) ceiling that is fitted around the hull at its waterline. The carpenter's walk allowed the ship's carpenter to tour the entire waterline area of a ship to inspect it for water leaks. Because of its dark and seldom-visited nature and location far below decks, it was also sometimes used by mutinous sailors as a secluded place to plan a rebellion against the ship's officers.
+    tags=word,english,nautical
+  Carronade
+    orig=A short, smoothbore, cast-iron naval cannon, used from the 1770s to the 1850s as a powerful, short-range, anti-ship and anti-crew weapon.
+    tags=word,english,nautical
+  Carrum
+    orig=A province in Arthur’s realm in Arthurian mythology. It was terrorized by a dragon, but was saved through the assistance of Saint Carannog, to whom Arthur gave the country as a reward.
+    tags=mythic,mplace,europe,england,wales,arthurian,fire,deathw
+  Carson
+    orig=Carson City is an independent city and the capital of the U.S. state of Nevada. The town began as a stopover for California-bound immigrants, but developed into a city with the Comstock Lode, a silver strike in the mountains to the northeast.
+    tags=place,america,us
+  Carter
+    orig=English and american (US) surname.
+    tags=name,america,us,europe,england,sname
+  Cartesian
+    orig=Cartesian Coordinates is a type of coordinate system that specifies the location of a point in two dimensional space by a pair of numerical numbers. In simple terms, an XY graph represents a two dimensional Cartesian Coordinate System. When a point is specified in a three dimensional space (XYZ graph), it constitutes a three dimensional Cartesian coordinate system.
+    tags=word,computer,math
+  Carthage
+    orig=the center or capital city of the ancient Carthaginian civilization. The ancient city was destroyed by the Roman Republic in the Third Punic War in 146 BC and then re-developed as Roman Carthage.
+    tags=africa,tunisia,oroman,carthage
+  Cartier
+    orig=English surname meaning "One who transports goods". The name Cartier is the last name of Paris-based designer Louis- François Cartier. Cartier is synonymous with luxury watches and jewelry.
+    tags=name,europe,england,france,sname
+  Cascade
+    orig=a small waterfall, often one of a group / to fall quickly and in large amounts
+    tags=word,english
+  Cassia
+    orig=the dried, aromatic bark of several tropical trees (genus Cinnamomum) that yields a reddish brown to dark brown spice sold as and used similarly to true cinnamon but having a usually stronger, more spicy character
+    tags=word,plant
+  Cassius
+    orig=Roman family name meaning "hollow"
+    tags=name,europe,italy,oroman,fname
+  Castiana
+    orig=Fictional (Stargate SG-1)
+    tags=fictional
+  Castor
+    orig=Antonius Castor was a pioneering botanist and pharmacologist of ancient Rome who lived in the first century. By the account of Pliny the Elder Castor lived more than a hundred years, in perfect health both of body and mind.
+    tags=person,europe,italy,oroman,plant
+  Casus Belli
+    orig=Latin: "Event of War"; Refers to an incident that is the justification or case for war.
+    tags=word,latin
+  Caswallawn 
+    orig=Cassivellaunus was a historical British military leader who led the defence against Julius Caesar's second expedition to Britain in 54 BC. He led an alliance of tribes against Roman forces, but eventually surrendered after his location was revealed to Julius Caesar by defeated Britons.
+    tags=person,europe,england,briton
+  Cat-sìth
+    orig=a fairy creature from Celtic mythology, said to resemble a large black cat, as large as a dog, with a white spot on its chest. Legend has it that the spectral cat haunts the Scottish Highlands. Some common folklore suggested that the cat-sìth was not a fairy, but a witch that could transform into a cat nine times.
+    tags=mythic,europe,scotland,celtic,ireland,monster
+  Catawnee
+    orig=Surname likely refering to a clan within the various Native American Cherokee tribes.
+    tags=name,america,sname,cherokee
+  Catenary
+    orig=Math: a curve represented by the equation y = a cosh(x/a) with appropriate axes. This curve can be formed by an ideal flexible heavy rope or chain of uniform density allowed to hang between two points.
+    tags=word,math
+  Catequil 
+    orig=In Inca mythology, the tutelar god of day and good, he's also the god of thunder and lightning in northern Peruvian highlands. Catequil and his twin brother Piguerao were born from hatched eggs.
+    tags=mythic,america,argentina,bolivia,chile,ecuador,peru,inca,mperson
+  Cath Palug
+    orig=a monstrous cat in Welsh legend, given birth in Gwynedd by the pig Henwen of Cornwall; the cat was later to haunt the Isle of Anglesey, and was said to have killed 180 warriors when Sir Kay went to the island to hunt it down.
+    tags=mythic,europe,wales,monster
+  Cathubodua
+    orig=the name of a Gaulish battle goddess. In the Gaulish language, the name Cathubodua is believed to mean battle-crow.
+    tags=mythic,europe,france,celtic,gaulish,mperson,war
+  Catubodua 
+    orig=Gaulish goddess assumed to be associated with victory. In the Gaulish language, the name Cathubodua is believed to mean battle-crow.
+    tags=mythic,europe,france,celtic,gaulish,mperson
+  Caturix
+    orig=the war god of the Helvetii tribe of the Swiss plateau in Roman times.
+    tags=mythic,europe,switzerland,celtic,mperson,war
+  Causuel
+    orig=A castle in Arthurian mythology where a tournament was held annually for possession of an enchanted parrot. The prize was supposed to go to the knight with the most beautiful lady. A knight called the Merciless Lion generally won the tournament through brute force, though his lady was ugly. Arthur won the tournament in the name of the Lady Without Pride.
+    tags=mythic,mplace,europe,england,wales,arthurian,entertainment
+  Cavall
+    orig=King Arthur's dog, used in the hunt for the great boar, Twrch Trwyth. Cavall was Arthur's "favourite dog", and during a stag hunt, he was customarily the last dog to be let loose to chase after the game.
+    tags=mythic,europe,england,mperson
+  Cavillace
+    orig=In Inca mythology, a virgin goddess who ate a fruit, which was actually the sperm of Coniraya, the moon god. When she gave birth to a son, she demanded that the father step forward. No one did, so she put the baby on the ground and it crawled towards Coniraya. She was ashamed because of Coniraya's low stature among the gods, and ran to the coast of Peru, where she changed herself and her son into rocks.
+    tags=mythic,america,argentina,bolivia,chile,ecuador,peru,inca,mperson,mountain,seaw
+  Cavus
+    orig=In planetary geology, it is used to refer to irregular steep-sided depressions that do not seem to be impact craters.
+    tags=word,geology
+  Cayahuanca  
+    orig="rock looking at the stars" in the Nahuat language (from El Salvador)
+    tags=word,nahuat
+  Cayenne
+    orig=The penal colony of Cayenne, commonly known as Devil's Island, was a French penal colony that operated for 100 years, from 1852 to 1952. It was notorious both for the staff's harsh treatment of detainees and the tropical climate and diseases that contributed to high mortality. The prison system had a death rate of 75% at its worst, and was finally closed down in 1953.
+    tags=place,island,america,france,prison
+  Caymont
+    orig=Tel Yokneam is an archaeological site located in northern Israel. The earliest archaeological features of Yokneam date from the Chalcolithic period, in the fourth millennium BCE. After the First Crusade, Yokneam was included in the newly established Frankish Kingdom of Jerusalem. Yokneam is mentioned, as "Caymont", in a charter issued by King Baldwin IV of Jerusalem granting a fief consisting of a few shops in Acre and 480 acres of land in the territory of Caymont. After Saladin defeated the armies of the Crusaders at the Battle of Hattin in 1187, the Frankish city of Caymont fell into the hands of the Islamic Ayyubid dynasty.
+    tags=place,mideast,israel,crusader,city,fort
+  Ceffyl Dŵr
+    orig=a water horse in Welsh folklore believed to shapeshift and even fly. In North Wales he is represented as being rather formidable with fiery eyes and a dark foreboding presence, whereas in South Wales he is seen more positively as, at worst a cheeky pest to travellers and, at best, as Trevelyan puts it, "luminous, fascinating and sometimes a winged steed".
+    tags=mythic,europe,wales,monster
+  Cel
+    orig="Green" in Nahuatl/Aztec
+    tags=word,aztec,color
+  Celaeno
+    orig=In Greek mythology, one of the Harpies whom Aeneas encountered at Strophades. She gave him prophecies of his coming journeys.
+    tags=mythic,europe,greece,ogreek,monster
+  Celeca
+    orig=A lake in Arthurian mythology. Beside it stood a monastery, where Sir Lionel (Lancelot’s cousin) was healed after having been wounded during the Grail Quest.
+    tags=mythic,mplace,europe,england,wales,arthurian,seaw,holy,water
+  Celeschul 
+    orig=Fictional (Schlock Mercenary)
+    tags=fictional
+  Celeste
+    orig=the colloquial name for the pale turquoise blue colour. In Italian, as the name indicates (Celestial), it is an attempt to reproduce the colour of clear skies.
+    tags=word,color,adj
+  Celestia
+    orig=Fictional (Mount Celestia of Dungeons and Dragons or Princess Celestia of MLP). "Celestial" means relating to heaven, divinity, the sky or visible planets and moons(celestial bodies).
+    tags=fictional
+  Celice
+    orig=A damsel of the Lady of the Lake in Arthurian mythology.
+    tags=mythic,mperson,europe,england,wales,arthurian
+  Celice
+    orig=A river in the forest of Darnantes in Britain. In Arthurian mythology Joseph of Arimathea came to it with his followers, but could not find a way to cross. He prayed, and God provided him with a bridge. One follower, Canaan, was still unable to cross, betraying his lack of faith and later sin.
+    tags=mythic,mplace,europe,england,wales,arthurian,seaw,holy
+  Celidoine
+    orig=In Arthurian mythology Arthur’s Sir Floriant freed the inhabitants of Celidoine by killing two giants who terrorized them.
+    tags=mythic,mplace,europe,england,wales,arthurian,deathw
+  Cell
+    orig=Biology: the smallest structural and functional unit of an organism, which is typically microscopic and consists of cytoplasm and a nucleus enclosed in a membrane.
+    tags=word,animal,plant
+  Celliwig
+    orig=Celliwig, Kelliwic or Gelliwic is perhaps the earliest named location for the court of King Arthur. It is mentioned in the Welsh tale Culhwch and Olwen whose manuscript dates from the 11th century, though the story is much older. The story describes the court as being at Celliwig in Cernyw (the Welsh name for Cornwall), otherwise known as the kingdom of Dumnonia including modern Devon. The hall is guarded by Glewlwyd Gafaelfawr, Arthur's porter, and Culhwch has difficulty gaining entrance due to the special laws that restrict entry once a feast has begun.
+    tags=mythic,europe,england,mplace
+  Celsius
+    orig=A unit of temperature. Symbol: °C. It is equal to one hundredth of the difference between the temperatures of freezing and boiling water at one atmosphere pressure. On the Celsius scale, the temperature at which water freezes is defined as 0°C, and the temperature at which water boils is defined as 100°C.
+    tags=word,science
+  Census
+    orig=The collection of data from the entire population, rather than from a sample.
+    tags=word,english
+  Cent
+    orig=A unit of money in many countries such as United States, Canada, Australia, and New Zealand.
+    tags=word
+  Centaur
+    orig=Greek creature with the head, arms, and torso of a man and the body and legs of a horse.
+    tags=mythic,europe,greece,ogreek,monster
+  Centeōtl
+    orig=In Aztec mythology, the maize deity portrayed as a young man. Corn was rather essential to Aztec life and thus the importance of Centeotl cannot be overlooked. It can be seen from countless historical sources that a lot of the maize that was cultivated by the Aztecs was used in sacrifices to gods.
+    tags=mythic,america,mexico,aztec,mperson,agri
+  Center
+    orig=A point about which a geometric shape is symmetrical.
+    tags=word,math
+  Central Processing Unit
+    orig=the most important processor in a given computer. Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
+    tags=word,english,computer
+  Centroid
+    orig=The center of mass of an object.
+    tags=word,math
+  Centurion
+    orig=a position in the Roman army during classical antiquity, nominally the commander of a century, a military unit originally consisting of 100 legionaries.
+    tags=word,europe,italy,oroman,war
+  Centzon Tōtōchtin
+    orig=In Mexica mythology, a group of four hundred divine rabbits who meet for frequent drunken parties.
+    tags=mythic,america,mexico,aztec,mperson,party
+  Centzonhuītznāhua 
+    orig=In Aztec mythology, were the gods of the southern stars. They and their sister tried to murder their mother upon learning of her pregnancy with Huītzilōpōchtli; their plan was thwarted when their brother sprang from the womb—fully grown and garbed for battle—and killed them all.
+    tags=mythic,america,mexico,aztec,mperson,war
+  Centzonmīmixcōa
+    orig=In Aztec mythology, the gods of the northern stars. According to the Manuscript of 1558, section 6, these 400 'Cloud-Serpents' were divinely slain (transformed into stars) in this wise.
+    tags=mythic,america,mexico,aztec,mperson,war
+  Cerberus
+    orig=often called the "hound of Hades", is a multi-headed dog that guards the gates of the Greek Underworld to prevent the dead from leaving
+    tags=mythic,europe,greece,ogreek,monster
+  Cerbol
+    orig=Fictional from Frank Herbert's Dune; the site of an uprising that was stopped by Bashar Miles Teg who, at middle age but with an impressive reputation, stood unarmed before the rebels on the fields of Cerbol to halt their revolution.
+    tags=fictional,dune
+  Ceres 
+    orig=In ancient Roman religion, a goddess of agriculture, grain crops, fertility and motherly relationships. Ceres is the only one of Rome's many agricultural deities to be listed among the Dii Consentes, Rome's equivalent to the Twelve Olympians of Greek mythology.
+    tags=mythic,oroman,europe,italy,mperson,agri
+  Cerbol
+    orig=Fictional from Frank Herbert's Dune; one of the first planet colonies of humanity, perhaps during the Little Diaspora. When a planetoid struck Terra in 13402 BG, Ceres became the new capital of the Imperial Seat.
+    tags=fictional,dune
+  Ceridwen 
+    orig=an enchantress in Welsh medieval legend. Ceridwen is regarded by many modern pagans as the Celtic goddess of rebirth, transformation, and inspiration.
+    tags=mythic,europe,wales,celtic,mperson,wicca
+  Cerise
+    orig=a deep to vivid reddish pink. The colour or name comes from the French word "cerise", meaning cherry.
+    tags=word,color,france,english
+  Cermait
+    orig=In Irish mythology, was a son of "the Dagda", a druid and king, and was killed by Lugh after he had an affair with Lugh's wife Buach. The Dagda cried tears of blood for his son, and later, while traveling with his son's body in the east revived Cermait with a healing staff.
+    tags=mythic,europe,ireland,celtic,oirish,mperson,medicine
+  Cernunnos
+    orig=In ancient Celtic and Gallo-Roman religion, a god depicted with antlers, seated cross-legged, and is associated with stags, horned serpents, dogs and bulls. God of nature and all wild things. Virility, fertility, animals, physical love, nature, woodlands, reincarnation, crossroads, wealth, commerce, warriors. Cernunnos is a Celtic god associated with sexuality, fertility, the hunt, and the underworld.
+    tags=mythic,europe,france,celtic,gaulish,mperson,money,war
+  Cerulean
+    orig=a shade of blue ranging between azure and a darker sky blue. The pigment is particularly valuable for artistic painting of skies because of its hue, its permanence, and its opaqueness.
+    tags=word,color,adj,seaw
+  Cervantes
+    orig=Spanish soldier, novelist, poet, playwright, accountant, author of Don Quixote
+    tags=person,europe,spain,entertainment,war
+  Cessair
+    orig=a character from a medieval Irish origin myth where she was the leader of the first inhabitants of Ireland, arriving before the Biblical flood.
+    tags=mythic,europe,ireland,oirish,mperson
+  Cesura
+    orig=musical term: a metrical pause or break in a verse where one phrase ends and another phrase begins. In time value, this break may vary between the slightest perception of silence all the way up to a full pause
+    tags=word,music,nightw
+  Cetacea 
+    orig=Cetaceans are an infraorder of aquatic mammals that includes whales, dolphins, and porpoises. Key characteristics are their fully aquatic lifestyle, streamlined body shape, often large size and exclusively carnivorous diet.
+    tags=word,animal
+  Cetan
+    orig=In Lakota Mythology, Cetan (“hawk”) is a hawk spirit who presided over endurance, speed, and swiftness.
+    tags=mythic,america,us,lakota,mperson,monster
+  Cethlenn
+    orig=In Irish mythology, was the wife of Balor of the Fomorians and, by him, the mother of Ethniu. She was also a prophetess and warned Balor of his impending defeat by the Tuatha Dé Danann in the second battle of Magh Tuiredh.
+    tags=mythic,europe,ireland,celtic,oirish,mperson,science
+  Cetus 
+    orig=In Ancient Greek kētŏs, Latinized as cetus, is any huge sea creature or sea monster. According to the mythology, Perseus slew Cetus to save Andromeda from being sacrificed to it. The term cetacean (for whale) derives from cetus. In Greek art, ceti were depicted as serpentine fish.
+    tags=mythic,europe,greece,ogreek,monster,seaw
+  Ch'aska
+    orig=(Morning star) was the goddess of dawn, the twilight and dusk, as well as the goddess of beauty, virgin women and the flowers in Incan mythology.
+    tags=mythic,america,argentina,bolivia,chile,ecuador,peru,inca,mperson,gaia
+  Cha'tima
+    orig=Male, Hopi first name meaning "The Caller".
+    tags=name,america,fname,hopi
+  Chaac
+    orig=the name of the Maya god of rain, thunder, and lighting. With his lightning axe, Chaac strikes the clouds, causing them to produce thunder and rain.
+    tags=mythic,america,belize,elsalvador,guatemala,honduras,mexico,maya,mperson,wet
+  Chabra 
+    orig=Chabra is a Hindu and Sikh surname. It is based on the name of the Arora clan.
+    tags=name,asia,india,sname
+  Chac Chel
+    orig=a powerful and ancient Mayan goddess of creation, destruction, childbirth, water, weaving and spinning, healing, and divining. She is half of the original Creator Couple, seen most often as the wife of Chaac, who is the pre-eminent god of lightning and rain.
+    tags=mythic,america,mexico,maya,mperson
+  Chaclla
+    orig=In Inca mythology, Rímac and Chaclla were two brother gods who sacrificed themselves to end a drought that plagued the coast in ancient times. Rímac became a river and Chaclla became the rain.
+    tags=mythic,america,argentina,bolivia,chile,ecuador,peru,inca,mperson,agri,wet
+  Chaconne
+    orig=Musical term; A chaconne is a type of musical composition popular in the baroque era
+    tags=word,music
+  Chadha  
+    orig=Chadha is a Khatri Hindu surname. It is based on the name of the clan in the Khatri community. The Ramgharia Sikhs have a clan named Chadha.
+    tags=name,asia,india,sname
+  Chadwick
+    orig=Sir James Chadwick (1891-1974) an English physicist who was awarded the 1935 Nobel Prize in Physics for his discovery of the neutron in 1932. In 1941, he wrote the final draft of the MAUD Report, which inspired the U.S. government to begin serious atom bomb research efforts. He was the head of the British team that worked on the Manhattan Project during World War II.
+    tags=person,europe,england,science
+  Chaeviere
+    orig=A pleasant, bustling town in Arthurian mythology situated along the river Humber, near the castle Dolorous Gard. Arthur and his company lodged here after Lancelot liberated Dolorous Gard.
+    tags=mythic,mplace,europe,england,wales,arthurian,money
+  Chahałheeł
+    orig="Darkness"/"Night" in Navajo
+    tags=word,navajo,nightw
+  Chakrabarti   
+    orig=The Bengali surname Chakrabarti comes from the Sanskrit word čakravartī, which means ‘emperor’. It also denotes a ruler whose chariot wheels rolled everywhere without obstruction.
+    tags=name,asia,india,sname
+  Chalbi
+    orig=a desert in northern Kenya along the border with Ethiopia
+    tags=place,africa,kenya,ethiopia,desert
+  Chalcedony
+    orig=Fictional from Frank Herbert's Dune; a location, probably a planet, given to Count Odusseus Atreides in 1099 AG after House Corrino was restored to the Imperial throne. Achilleus Atreides used the money from Chalcedony family estates in order to invest in CHOAM shares of undeveloped worlds.
+    tags=fictional,dune
+  Chalchiuhtecolotl
+    orig=a night owl god from Aztec mythology. His name means "precious owl."
+    tags=mythic,america,mexico,aztec,mperson,nightw,money
+  Chalchiuhtlatonal
+    orig=In Aztec mythology, was a god of water who looked over the sea, and protects the animals living in it. It is said that he granted the gift of water to one human in 10,000 years to help look after the sea.
+    tags=mythic,america,mexico,aztec,mperson,seaw
+  Chalchiuhtlicue
+    orig=("She of the Jade Skirt") is an Aztec deity of water, rivers, seas, streams, storms, and baptism. Chalchiuhtlicue is associated with fertility and she is the patroness of childbirth.
+    tags=mythic,america,mexico,aztec,mperson,seaw
+  Chalchiuhtotolin
+    orig=In Aztec mythology, "Jade Turkey" was a god of disease and plague. Chalchihuihtotolin is a symbol of powerful sorcery. Tezcatlipoca can tempt humans into self-destruction, but when he takes his turkey form he can also cleanse them of contamination, absolve them of guilt, and overcome their fate.
+    tags=mythic,america,mexico,aztec,mperson,medicine,deathw
+  Chalkydri 
+    orig= mythical creatures mentioned in the apocryphal Second Book of Enoch from the 1st century CE, often seen as an angelic species. In the narrative, chalkydri dwell near the Sun and ran its course around the earth with it bringing heat and dew to the earth. At sunrise, all the chalkydri break into song with their counterparts, alerting the birds of the world for a new day to rejoice.
+    tags=mythic,christian,monster,angel
+  Champ
+    orig=Champ, also known as Champy, is the name given to a mysterious creature that allegedly inhabits Lake Champlain, a 125-mile-long body of fresh water shared by New York, Vermont, and Quebec. Lake Champlain is one of the largest lakes in North America and has a maximum depth of 400 feet. Champ is described as a large, serpent-like animal with a long neck and a horse-like head. Some witnesses have reported seeing humps, horns, teeth, scales, or fins on its body. Its color varies from dark brown to gray or green. Its size is estimated to range from 10 to 200 feet long, depending on the source.
+    tags=mythic,america,us,seaw,monster
+  Chamrosh
+    orig=a bird in Persian mythology described as having the body of a dog/wolf with the head and wings of an eagle. Chamrosh is the archetype of all birds, said to rule and protect all avifauna on Earth. 
+    tags=mythic,mideast,iran,persian,monster
+  Chandra    
+    orig=The popular surname Chandra comes from the Sanskrit word ‘candra’, which means ‘pleasant or moon’.
+    tags=name,asia,india,sname
+  Chanel
+    orig=French surname meaning "A canal". Whether it is fashionable dresses, hats, or perfumes, Chanel brought about a change in everything establishing, itself as one of the most iconic brands ever. Started by Coco Chanel, the brand is revered by the rich and wealthy.
+    tags=name,europe,france,sname
+  Chaneque
+    orig=legendary creatures in Mexican folklore "those who inhabit dangerous places" or the "owners of the house". They are conceived of as small, sprite-like beings, elemental forces and guardians of nature. 
+    tags=mythic,america,mexico,aztec,monster
+  Changbai 
+    orig=Changbai Mountain is an active stratovolcano on the Chinese–North Korean border. At 2,744 m (9,003 ft), it is the tallest mountain in North Korea and Northeast China. The mountain notably has a caldera that contains a large crater lake called Heaven Lake, and is also the source of the Songhua, Tumen, and Yalu rivers. Korean and Manchu people assign a mythical quality to the mountain and its lake, and consider the mountain to be their ancestral homeland. The mountain's caldera was formed by an eruption in 946 that released about 100–120 km3 volcanic ash. The eruption was among the largest and most powerful eruptions on Earth in the last 5,000 years.
+    tags=place,asia,china,northkorea,mountain,fire
+  Chantico
+    orig=In Aztec religion, Chantico ("she who dwells in the house") is the deity reigning over the fires in the family hearth. She broke a fast by eating paprika with roasted fish, and was turned into a dog by Tonacatecuhtli as punishment. She was associated with the town of Xochimilco, stonecutters, as well as warriorship.
+    tags=mythic,america,mexico,aztec,mperson,fire

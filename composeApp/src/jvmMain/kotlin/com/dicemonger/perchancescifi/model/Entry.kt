@@ -1,3 +1,0 @@
-package com.dicemonger.perchancescifi.model
-
-data class Entry(val title: String, val desc: String, val tags: List<Tag>)

@@ -6,12 +6,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Button
-import androidx.compose.material3.Checkbox
-import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
-import androidx.compose.material3.LoadingIndicator
-import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
+import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -38,7 +33,8 @@ object MainScreen {
             actionChangeTitle = viewModel::changeTitle,
             actionChangeDescription = viewModel::changeDescription,
             actionUpdateWithTags = viewModel::updateWithTags,
-            actionChangeEntry = viewModel::changeEntry
+            actionChangeEntry = viewModel::changeEntry,
+            actionSaveAllEntries = viewModel::saveAllEntries
         )
     }
 
@@ -53,7 +49,8 @@ object MainScreen {
         actionChangeTitle: (String) -> Unit,
         actionChangeDescription: (String) -> Unit,
         actionUpdateWithTags: (List<Tag>) -> Unit,
-        actionChangeEntry: (Entry) -> Unit
+        actionChangeEntry: (Entry) -> Unit,
+        actionSaveAllEntries: () -> Unit
     ) {
         var showTemplatesPicker by remember { mutableStateOf(false) }
         var showTagsPicker by remember { mutableStateOf(false) }
@@ -68,7 +65,8 @@ object MainScreen {
                     actionChangeDescription = actionChangeDescription,
                     actionShowChangeTemplate = { showTemplatesPicker = true },
                     actionShowTagsPicker = { showTagsPicker = true },
-                    actionShowAllEntries = { showAllEntries = true }
+                    actionShowAllEntries = { showAllEntries = true },
+                    actionSaveAllEntries = actionSaveAllEntries
                 )
             }
             if (showTemplatesPicker) {
@@ -84,7 +82,7 @@ object MainScreen {
             if (showAllEntries) {
                 AllEntriesPicker(allEntries, pickEntry = actionChangeEntry, actionHide = { showAllEntries = false })
             }
-            if(isLoading.value) {
+            if (isLoading.value) {
                 LoadingIndicator(modifier = Modifier.align(Alignment.Center))
             }
         }
@@ -98,7 +96,8 @@ object MainScreen {
         actionChangeDescription: (String) -> Unit,
         actionShowChangeTemplate: () -> Unit,
         actionShowTagsPicker: () -> Unit,
-        actionShowAllEntries: () -> Unit
+        actionShowAllEntries: () -> Unit,
+        actionSaveAllEntries: () -> Unit
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
             TemplatePicker(templateName, actionShowChangeTemplate)
@@ -120,8 +119,14 @@ object MainScreen {
                     Text(tag.title)
                 }
             }
-            Button(onClick = actionShowAllEntries) {
-                Text("All Entries")
+            Row {
+                Button(onClick = actionShowAllEntries) {
+                    Text("All Entries")
+                }
+                Spacer(modifier = Modifier.width(8.dp))
+                Button(onClick = actionSaveAllEntries) {
+                    Text("Save All")
+                }
             }
         }
     }
@@ -143,7 +148,8 @@ object MainScreen {
         val entryTags = entry.value.tags
         val mainTags = tags.value.filter { it.parentId == null }
         var activeTab = remember { mutableStateOf(mainTags.firstOrNull()?.id) }
-        var tabTags = tags.value.filter { it.parentId == activeTab.value }
+        var tabTags =
+            tags.value.filter { it.parentId == activeTab.value }.sortedBy { it.title }.sortedBy { it.priority }
         Column {
             Button(modifier = Modifier.align(Alignment.End), onClick = actionHide) {
                 Text("X")
@@ -161,6 +167,7 @@ object MainScreen {
                         )
                         Checkbox(
                             checked = entryTags.contains(tag),
+                            enabled = tag.id != "world",
                             onCheckedChange = { isChecked ->
                                 if (isChecked) {
                                     actionUpdateWithTags(entryTags + tag)
@@ -173,19 +180,33 @@ object MainScreen {
                 }
             }
             FlowRow(modifier = Modifier.fillMaxWidth()) {
+                var lastPrio: Int = tabTags.firstOrNull()?.priority ?: 0
                 tabTags.forEach { tag ->
+                    if (lastPrio != tag.priority) {
+                        Text(
+                            modifier = Modifier.padding(horizontal = 8.dp),
+                            style = TextStyle(fontWeight = FontWeight.Black),
+                            text = "|"
+                        )
+                    }
+
                     val isActive = entryTags.contains(tag)
                     Text(
-                        modifier = Modifier.clickable {
-                            if (isActive)
-                                actionUpdateWithTags(entryTags - tag)
-                            else
-                                actionUpdateWithTags(entryTags + tag)
-                        },
+                        modifier = Modifier
+                            .padding(2.dp)
+                            .clickable {
+                                if (isActive)
+                                    actionUpdateWithTags(entryTags - tag)
+                                else
+                                    actionUpdateWithTags(entryTags + tag)
+                            }
+                            .border(1.dp, Color.Black, RoundedCornerShape(9000.dp))
+                            .padding(vertical = 2.dp, horizontal = 6.dp),
                         color = if (isActive) Color.Red else Color.Black,
                         style = if (isActive) TextStyle(fontWeight = FontWeight.SemiBold) else TextStyle(fontWeight = FontWeight.Normal),
                         text = tag.title
                     )
+                    lastPrio = tag.priority
                 }
             }
         }
@@ -198,36 +219,35 @@ object MainScreen {
 
     @Composable
     private fun AllEntriesPicker(entries: State<List<Entry>>, pickEntry: (Entry) -> Unit, actionHide: () -> Unit) {
-        LazyColumn(
-            horizontalAlignment = Alignment.End
-        ) {
-            item {
-                Button(onClick = actionHide) {
-                    Text("X")
-                }
+        Column {
+            Button(modifier = Modifier.align(Alignment.End), onClick = actionHide) {
+                Text("X")
             }
-            items(items = entries.value) { item ->
-                Column(
-                    modifier = Modifier
-                        .padding(4.dp)
-                        .fillMaxWidth()
-                        .clickable {
-                            pickEntry(item)
-                            actionHide()
-                        }
-                        .border(1.dp, Color.Black, RoundedCornerShape(4f))
-                        .padding(4.dp)
-                ) {
-                    Text(item.title)
-                    Text(item.desc)
-                    FlowRow {
-                        item.tags.forEachIndexed { index, tag ->
-                            if (index > 0) Text(", ")
-                            Text(tag.title)
+            LazyColumn {
+                items(items = entries.value) { item ->
+                    Column(
+                        modifier = Modifier
+                            .padding(4.dp)
+                            .fillMaxWidth()
+                            .clickable {
+                                pickEntry(item)
+                                actionHide()
+                            }
+                            .border(1.dp, Color.Black, RoundedCornerShape(4f))
+                            .padding(4.dp)
+                    ) {
+                        Text(item.title)
+                        Text(item.desc)
+                        FlowRow {
+                            item.tags.forEachIndexed { index, tag ->
+                                if (index > 0) Text(", ")
+                                Text(tag.title)
+                            }
                         }
                     }
                 }
             }
+
         }
     }
 }
