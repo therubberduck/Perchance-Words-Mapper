@@ -120,7 +120,13 @@ object MainScreen {
                 TemplatesPicker(allTemplates, actionChangeTemplate, actionHide = { showTemplatesPicker = false })
             }
             if (showAllEntries) {
-                AllEntriesPicker(allEntries, pickEntry = actionChangeEntry, actionHide = { showAllEntries = false })
+                EntriesPicker.Create(
+                    allEntries,
+                    pickEntry = actionChangeEntry,
+                    testTag = {
+                        allTags.value.contains(it)
+                    },
+                    actionHide = { showAllEntries = false })
             }
             if (currentEntry.value == null || isLoading.value) {
                 LoadingIndicator(modifier = Modifier.align(Alignment.Center))
@@ -341,37 +347,5 @@ object MainScreen {
         }
     }
 
-    @Composable
-    private fun AllEntriesPicker(entries: State<List<Entry>>, pickEntry: (Entry) -> Unit, actionHide: () -> Unit) {
-        Column {
-            Button(modifier = Modifier.align(Alignment.End), onClick = actionHide) {
-                Text("X")
-            }
-            LazyColumn {
-                items(items = entries.value) { item ->
-                    Column(
-                        modifier = Modifier
-                            .padding(4.dp)
-                            .fillMaxWidth()
-                            .clickable {
-                                pickEntry(item)
-                                actionHide()
-                            }
-                            .border(1.dp, Color.Black, RoundedCornerShape(4f))
-                            .padding(4.dp)
-                    ) {
-                        Text(item.title)
-                        Text(item.desc)
-                        FlowRow {
-                            item.tags.forEachIndexed { index, tag ->
-                                if (index > 0) Text(", ")
-                                Text(tag.title)
-                            }
-                        }
-                    }
-                }
-            }
 
-        }
-    }
 }

@@ -13,14 +13,13 @@ class TagsCreator {
         addReligions()
         addWordThemes()
         addFiction()
+        addMisc()
         return list
     }
 
     private fun addMajorCategories() {
         list.add(Tag("World Type", "world", null))
         list.add(Tag("Mythology", "mythic", null))
-        list.add(Tag("Mythic Person", "mperson", "misc", priority = 0))
-        list.add(Tag("Mythic Place", "mplace", "misc", priority = 0))
         list.add(Tag("Places", "place", null))
         list.add(Tag("Names", "name", null))
         list.add(Tag("People", "person", null))
@@ -44,6 +43,7 @@ class TagsCreator {
         list.add(Tag("Industry Worlds", "industry", "world", 2))
         list.add(Tag("Mining Worlds", "mining", "world", 2))
         list.add(Tag("Casino / Pleasure Worlds", "entertainment", "world", 2))
+        list.add(Tag("Fortress Worlds", "fort", "world", 2))
         list.add(Tag("Holy Worlds", "holy", "world", 2))
         list.add(Tag("Prison Worlds", "prison", "world", 2))
         list.add(Tag("Science Worlds", "science", "world", 2))
@@ -57,6 +57,16 @@ class TagsCreator {
         list.add(Tag("Europe", "europe", "region", 1))
         list.add(Tag("Middle East", "mideast", "region", 1))
         list.add(Tag("Pacific", "pacific", "region", 1))
+        list.add(Tag("Arabian Peninsula", "arabia", "region", 2))
+        list.add(Tag("Balkans", "balkans", "region", 2))
+        list.add(Tag("Baltic States", "baltic", "region", 2))
+        list.add(Tag("Canary Islands", "canaryislands", "region", 2))
+        list.add(Tag("Caribbean", "caribbean", "region", 2))
+        list.add(Tag("Horn of Africa", "hornofafrica", "region", 2))
+        list.add(Tag("Indochina", "indochina", "region", 2))
+        list.add(Tag("Polynesia", "polynesia", "region", 2))
+        list.add(Tag("Scandinavia", "scandinavia", "region", 2))
+        list.add(Tag("West Africa", "westafrica", "region", 2))
     }
 
     private fun addCountries() {
@@ -128,6 +138,7 @@ class TagsCreator {
         list.add(Tag("Ghana", "ghana", "place"))
         list.add(Tag("Great Britain", "britain", "place"))
         list.add(Tag("Greece", "greece", "place"))
+        list.add(Tag("Greenland", "greenland", "place"))
         list.add(Tag("Grenada", "grenada", "place"))
         list.add(Tag("Guatemala", "guatemala", "place"))
         list.add(Tag("Guinea", "guinea", "place"))
@@ -242,6 +253,7 @@ class TagsCreator {
         list.add(Tag("United States", "us", "place"))
         list.add(Tag("Uruguay", "uruguay", "place"))
         list.add(Tag("Uzbekistan", "uzbekistan", "place"))
+        list.add(Tag("Vanuatu", "vanuatu", "place"))
         list.add(Tag("Venezuela", "venezuela", "place"))
         list.add(Tag("Vietnam", "vietnam", "place"))
         list.add(Tag("Wabanaki Confederacy", "wabanaki", "place"))
@@ -471,5 +483,13 @@ class TagsCreator {
     private fun addFiction() {
         list.add(Tag("Arthurian", "arthurian", "fictional"))
         list.add(Tag("Dune", "dune", "fictional"))
+    }
+
+    private fun addMisc() {
+        list.add(Tag("Mythic Person", "mperson", "misc", priority = 0))
+        list.add(Tag("Mythic Place", "mplace", "misc", priority = 0))
+        list.add(Tag("Adjective", "adj", "misc", priority = 1))
+        list.add(Tag("First Name", "fname", "misc", priority = 1))
+        list.add(Tag("Surname", "sname", "misc", priority = 1))
     }
 }
