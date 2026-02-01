@@ -9,6 +9,7 @@ class EntriesLoader(private val fileSystem: FileSystem = FileSystemProvider.syst
     fun writeFile(path: Path, entries: List<Entry>) {
         fileSystem.write(path) {
             for (entry in entries) {
+                if (entry.title.isBlank()) continue
                 writeUtf8("  ${entry.title}\n")
                 writeUtf8("    orig=${entry.desc}\n")
                 val tagIds = entry.tags.joinToString(",") { it.id }
@@ -43,10 +44,11 @@ class EntriesLoader(private val fileSystem: FileSystem = FileSystemProvider.syst
                     // Tags line - complete the entry
                     val tagsLine = line.trimStart().removePrefix("tags=")
                     val tagIds = tagsLine.split(",").map { it.trim() }
-                    val tags = allTags.filter { tag -> tagIds.contains(tag.id) }
+                    val knownTags = allTags.filter { tag -> tagIds.contains(tag.id) }
+                    val allTags = knownTags + tagIds.filter { !knownTags.map { it.id }.contains(it) }.map { id -> Tag(id.capitalize(), id, "unknown") }
 
                     if (currentTitle != null && currentDesc != null) {
-                        entries.add(Entry(currentId, currentTitle, currentDesc, tags))
+                        entries.add(Entry(currentId, currentTitle, currentDesc, allTags))
                     }
 
                     // Reset for next entry

@@ -8,6 +8,12 @@ plugins {
     alias(libs.plugins.composeHotReload)
 }
 
+layout.buildDirectory.set(
+    File("E:/ProjectBuilds")
+        .resolve(rootProject.name)
+        .resolve(project.name)
+)
+
 kotlin {
     jvm()
     

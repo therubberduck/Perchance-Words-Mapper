@@ -4,9 +4,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.dicemonger.perchancescifi.io.EntriesLoader
 import com.dicemonger.perchancescifi.io.FileSystemProvider
+import com.dicemonger.perchancescifi.io.TemplatesLoader
 import com.dicemonger.perchancescifi.model.Entry
 import com.dicemonger.perchancescifi.model.Tag
 import com.dicemonger.perchancescifi.model.TagsCreator
+import com.dicemonger.perchancescifi.model.Template
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -21,14 +23,17 @@ import kotlin.random.Random
 
 @KoinViewModel
 class MainViewModel() : ViewModel() {
-    private val _templateName: MutableStateFlow<String> = MutableStateFlow("")
-    val templateName = _templateName.asStateFlow()
-
     private val _allTags: MutableStateFlow<List<Tag>> = MutableStateFlow(emptyList())
     val allTags = _allTags.asStateFlow()
 
     private val _allEntries: MutableStateFlow<List<Entry>> = MutableStateFlow(emptyList())
     val allEntries = _allEntries.asStateFlow()
+
+    private val _templates: MutableStateFlow<List<Template>> = MutableStateFlow(emptyList())
+    val templates = _templates.asStateFlow()
+
+    private val _toast: MutableStateFlow<String?> = MutableStateFlow(null)
+    val toast: StateFlow<String?> = _toast.asStateFlow()
 
     private val _currentEntryId: MutableStateFlow<Long> = MutableStateFlow(0L)
 
@@ -41,8 +46,23 @@ class MainViewModel() : ViewModel() {
             initialValue = null
         )
 
+    private val _currentTemplateId: MutableStateFlow<String?> = MutableStateFlow(null)
+
+    val currentTemplate: StateFlow<Template?> =
+        combine(_templates, _currentTemplateId) { templates, id ->
+            templates.firstOrNull { it.title == id }
+        }.stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5_000),
+            initialValue = null
+        )
+
     private val _isLoading: MutableStateFlow<Boolean> = MutableStateFlow(false)
     val isLoading = _isLoading.asStateFlow()
+
+    private val baseDir: Path = "E:/ProjectBuilds/PerchanceSciFiEntryApp".toPath()
+    private val entriesPath: Path = baseDir / "entries.txt"
+    private val templatesPath: Path = baseDir / "templates.txt"
 
     init {
         _isLoading.value = true
@@ -50,8 +70,6 @@ class MainViewModel() : ViewModel() {
         _allTags.value = TagsCreator().CreateTags()
 
         val fileSystem = FileSystemProvider.system
-        val baseDir: Path = "D:/PerchanceSciFiEntryApp".toPath()
-        val entriesPath: Path = baseDir / "entries.txt"
 
         fileSystem.createDirectories(baseDir)
 
@@ -63,8 +81,11 @@ class MainViewModel() : ViewModel() {
             path = entriesPath,
             allTags = _allTags.value
         )
-
         _currentEntryId.value = _allEntries.value.firstOrNull()?.id ?: 0L
+
+        _templates.value = TemplatesLoader().readFile(templatesPath, _allTags.value)
+        _currentTemplateId.value = _templates.value.firstOrNull()?.title
+
         _isLoading.value = false
     }
 
@@ -85,7 +106,8 @@ class MainViewModel() : ViewModel() {
     }
 
     fun updateWithTags(tags: List<Tag>) {
-        updateCurrentEntry { it.copy(tags = tags) }
+        val sortedTags = tags.sortedBy { it.title }.sortedBy { it.parentId != null }
+        updateCurrentEntry { it.copy(tags = sortedTags) }
     }
 
     private fun updateCurrentEntry(transform: (Entry) -> Entry) {
@@ -124,17 +146,46 @@ class MainViewModel() : ViewModel() {
         }
     }
 
+    fun applyTemplate() {
+        val currentTemplate = currentTemplate.value ?: return
+        val newEntry = currentTemplate.entry.copy(id = nextEntryId())
+        _allEntries.update { it + newEntry }
+        _currentEntryId.value = newEntry.id
+    }
+
+    fun changeTemplate(template: Template) {
+        _currentTemplateId.value = template.title
+    }
+
+    fun saveEntryAsTemplate(title: String) {
+        val entry = currentEntry.value ?: return
+        _templates.update { it + Template(entry = entry, title = title) }
+        _currentTemplateId.value = title
+        TemplatesLoader().writeFile(path = templatesPath, templates = _templates.value)
+    }
+
+    fun deleteTemplate() {
+        if(_templates.value.size <= 1) return
+
+        val currentTemplate = currentTemplate.value ?: return
+        _templates.update { it - currentTemplate }
+        _currentTemplateId.value = _templates.value.firstOrNull()?.title
+        TemplatesLoader().writeFile(path = templatesPath, templates = _templates.value)
+    }
+
     fun saveAllEntries() {
         _isLoading.value = true
-
-        val baseDir: Path = "D:/PerchanceSciFiEntryApp".toPath()
-        val entriesPath: Path = baseDir / "entries.txt"
 
         EntriesLoader().writeFile(
             path = entriesPath,
             entries = _allEntries.value
         )
 
+        _toast.value = "Saved!"
         _isLoading.value = false
+    }
+
+    fun clearToast() {
+        _toast.value = null
     }
 }
