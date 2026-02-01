@@ -488,8 +488,15 @@ class TagsCreator {
     private fun addMisc() {
         list.add(Tag("Mythic Person", "mperson", "misc", priority = 0))
         list.add(Tag("Mythic Place", "mplace", "misc", priority = 0))
-        list.add(Tag("Adjective", "adj", "misc", priority = 1))
+        list.add(Tag("Adjective", "adj", "misc", priority = 0))
+        list.add(Tag("Age (New, Old, etc)", "age", "misc", priority = 0))
         list.add(Tag("First Name", "fname", "misc", priority = 1))
         list.add(Tag("Surname", "sname", "misc", priority = 1))
+        list.add(Tag("Color [X]", "colorSuffix", "misc", priority = 2))
+        list.add(Tag("Color[x]", "colorSuffixSp", "misc", priority = 2))
+        list.add(Tag("[X] Name", "placePrefix", "misc", priority = 3))
+        list.add(Tag("[Title] Name", "titlePrefix", "misc", priority = 3))
+        list.add(Tag("Name's [X]", "personSuffix", "misc", priority = 3))
+        list.add(Tag("Name [X]", "placeSuffix", "misc", priority = 3))
     }
 }
