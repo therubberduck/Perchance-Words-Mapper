@@ -42,7 +42,7 @@ object MainScreen {
     @Composable
     fun CreateInstance(
         templateName: State<String>,
-        currentEntry: State<Entry>,
+        currentEntry: State<Entry?>,
         allEntries: State<List<Entry>>,
         allTags: State<List<Tag>>,
         isLoading: State<Boolean>,
@@ -57,7 +57,7 @@ object MainScreen {
         var showAllEntries by remember { mutableStateOf(false) }
 
         Box(modifier = Modifier.fillMaxSize()) {
-            if (isLoading.value.not() && showTemplatesPicker.not() && showTagsPicker.not() && showAllEntries.not()) {
+            if (currentEntry.value != null && isLoading.value.not() && showTemplatesPicker.not() && showTagsPicker.not() && showAllEntries.not()) {
                 EditView(
                     templateName = templateName,
                     currentEntry = currentEntry,
@@ -82,7 +82,7 @@ object MainScreen {
             if (showAllEntries) {
                 AllEntriesPicker(allEntries, pickEntry = actionChangeEntry, actionHide = { showAllEntries = false })
             }
-            if (isLoading.value) {
+            if (currentEntry.value == null || isLoading.value) {
                 LoadingIndicator(modifier = Modifier.align(Alignment.Center))
             }
         }
@@ -91,7 +91,7 @@ object MainScreen {
     @Composable
     private fun EditView(
         templateName: State<String>,
-        currentEntry: State<Entry>,
+        currentEntry: State<Entry?>,
         actionChangeTitle: (String) -> Unit,
         actionChangeDescription: (String) -> Unit,
         actionShowChangeTemplate: () -> Unit,
@@ -99,22 +99,23 @@ object MainScreen {
         actionShowAllEntries: () -> Unit,
         actionSaveAllEntries: () -> Unit
     ) {
+        val currentEntry = currentEntry.value ?: return
         Column(modifier = Modifier.fillMaxSize()) {
             TemplatePicker(templateName, actionShowChangeTemplate)
             TextField(
                 modifier = Modifier.fillMaxWidth(),
-                value = currentEntry.value.title,
+                value = currentEntry.title,
                 onValueChange = actionChangeTitle,
                 singleLine = true
             )
             TextField(
                 modifier = Modifier.fillMaxWidth(),
-                value = currentEntry.value.desc,
+                value = currentEntry.desc,
                 onValueChange = actionChangeDescription,
                 minLines = 3
             )
             FlowRow(modifier = Modifier.clickable { actionShowTagsPicker() }) {
-                currentEntry.value.tags.forEachIndexed { index, tag ->
+                currentEntry.tags.forEachIndexed { index, tag ->
                     if (index > 0) Text(", ")
                     Text(tag.title)
                 }
@@ -140,12 +141,12 @@ object MainScreen {
 
     @Composable
     private fun TagsPicker(
-        entry: State<Entry>,
+        entry: State<Entry?>,
         tags: State<List<Tag>>,
         actionUpdateWithTags: (List<Tag>) -> Unit,
         actionHide: () -> Unit
     ) {
-        val entryTags = entry.value.tags
+        val entryTags = entry.value?.tags ?: emptyList()
         val mainTags = tags.value.filter { it.parentId == null }
         var activeTab = remember { mutableStateOf(mainTags.firstOrNull()?.id) }
         var tabTags =
