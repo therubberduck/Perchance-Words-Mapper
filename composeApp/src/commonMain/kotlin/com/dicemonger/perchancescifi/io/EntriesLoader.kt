@@ -7,8 +7,9 @@ import okio.Path
 
 class EntriesLoader(private val fileSystem: FileSystem = FileSystemProvider.system) {
     fun writeFile(path: Path, entries: List<Entry>) {
+        val sortedEntries = entries.sortedBy { it.title }
         fileSystem.write(path) {
-            for (entry in entries) {
+            for (entry in sortedEntries) {
                 if (entry.title.isBlank()) continue
                 writeUtf8("  ${entry.title}\n")
                 writeUtf8("    orig=${entry.desc.replace("\n", "<br>")}\n")
