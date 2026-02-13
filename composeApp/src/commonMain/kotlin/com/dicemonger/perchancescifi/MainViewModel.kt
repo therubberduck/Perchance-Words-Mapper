@@ -57,6 +57,12 @@ class MainViewModel() : ViewModel() {
             initialValue = null
         )
 
+    private val _doAutoSave: MutableStateFlow<Boolean> = MutableStateFlow(true)
+    val doAutoSave = _doAutoSave.asStateFlow()
+    fun switchAutoSave() {
+        _doAutoSave.value = !_doAutoSave.value
+    }
+
     private val _isLoading: MutableStateFlow<Boolean> = MutableStateFlow(false)
     val isLoading = _isLoading.asStateFlow()
 
@@ -94,6 +100,7 @@ class MainViewModel() : ViewModel() {
     }
 
     fun changeEntry(entry: Entry) {
+        if(doAutoSave.value) saveAllEntries(true)
         _currentEntryId.value = entry.id
     }
 
@@ -127,6 +134,7 @@ class MainViewModel() : ViewModel() {
             tags = emptyList()
         )
         _allEntries.update { it + entry }
+        if(doAutoSave.value) saveAllEntries(true)
         _currentEntryId.value = entry.id
     }
 
@@ -150,6 +158,8 @@ class MainViewModel() : ViewModel() {
         val currentTemplate = currentTemplate.value ?: return
         val newEntry = currentTemplate.entry.copy(id = nextEntryId())
         _allEntries.update { it + newEntry }
+
+        if(doAutoSave.value) saveAllEntries(true)
         _currentEntryId.value = newEntry.id
     }
 
@@ -173,7 +183,7 @@ class MainViewModel() : ViewModel() {
         TemplatesLoader().writeFile(path = templatesPath, templates = _templates.value)
     }
 
-    fun saveAllEntries() {
+    fun saveAllEntries(isAutoSave: Boolean = false) {
         _isLoading.value = true
 
         EntriesLoader().writeFile(
@@ -181,7 +191,12 @@ class MainViewModel() : ViewModel() {
             entries = _allEntries.value
         )
 
-        _toast.value = "Saved!"
+        _toast.value = if(isAutoSave) {
+            "Saved ${currentEntry.value?.title ?: "unknown"}"
+        }
+        else {
+            "Saved!"
+        }
         _isLoading.value = false
     }
 

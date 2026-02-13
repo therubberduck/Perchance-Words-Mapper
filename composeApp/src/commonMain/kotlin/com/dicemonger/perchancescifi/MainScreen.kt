@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Checkbox
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -46,6 +47,8 @@ object MainScreen {
                 actionChangeDescription = viewModel::changeDescription,
                 actionUpdateWithTags = viewModel::updateWithTags,
                 actionChangeEntry = viewModel::changeEntry,
+                doAutoSave = viewModel.doAutoSave.collectAsState(),
+                actionSwitchAutoSave = viewModel::switchAutoSave,
                 actionSaveAllEntries = viewModel::saveAllEntries
             )
 
@@ -82,6 +85,8 @@ object MainScreen {
         actionChangeDescription: (String) -> Unit,
         actionUpdateWithTags: (List<Tag>) -> Unit,
         actionChangeEntry: (Entry) -> Unit,
+        doAutoSave: State<Boolean>,
+        actionSwitchAutoSave: () -> Unit,
         actionSaveAllEntries: () -> Unit
     ) {
         var showTemplatesPicker by remember { mutableStateOf(false) }
@@ -103,6 +108,8 @@ object MainScreen {
                             actionChangeTitle = actionChangeTitle,
                             actionChangeDescription = actionChangeDescription,
                             actionShowAllEntries = { showAllEntries = true },
+                            doAutoSave = doAutoSave,
+                            actionSwitchAutoSave = actionSwitchAutoSave,
                             actionSaveAllEntries = actionSaveAllEntries
                         )
 
@@ -147,6 +154,8 @@ object MainScreen {
         actionChangeTitle: (String) -> Unit,
         actionChangeDescription: (String) -> Unit,
         actionShowAllEntries: () -> Unit,
+        doAutoSave: State<Boolean>,
+        actionSwitchAutoSave: () -> Unit,
         actionSaveAllEntries: () -> Unit
     ) {
         var showDeleteConfirmation by remember { mutableStateOf(false) }
@@ -192,9 +201,6 @@ object MainScreen {
                 Button(onClick = actionShowAllEntries) {
                     Text("All Entries")
                 }
-                Button(onClick = actionSaveAllEntries) {
-                    Text("Save All")
-                }
             }
             Spacer(modifier = Modifier.height(16.dp))
             TemplateSection(
@@ -204,6 +210,19 @@ object MainScreen {
                 actionCreateTemplate,
                 actionDeleteTemplate
             )
+            Spacer(modifier = Modifier.height(16.dp))
+            FlowRow(
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 32.dp),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("Auto-Save")
+                    Checkbox(checked = doAutoSave.value, onCheckedChange = { _ -> actionSwitchAutoSave()})
+                }
+                Button(onClick = actionSaveAllEntries) {
+                    Text("Save All")
+                }
+            }
         }
 
         if (showDeleteConfirmation) {
@@ -249,7 +268,7 @@ object MainScreen {
                 Text(activeTemplate.title)
             }
             Button(onClick = actionApplyTemplate) {
-                Text("Apply Template")
+                Text("Entry from Template")
             }
             Button(onClick = { showCreationDialog = true }) {
                 Text("Create Template")
@@ -334,7 +353,7 @@ object MainScreen {
                             .padding(4.dp)
                     ) {
                         Text(item.title)
-                        Text(item.entry.desc)
+//                        Text(item.entry.desc)
                         FlowRow {
                             item.entry.tags.forEachIndexed { index, tag ->
                                 if (index > 0) Text(", ")
