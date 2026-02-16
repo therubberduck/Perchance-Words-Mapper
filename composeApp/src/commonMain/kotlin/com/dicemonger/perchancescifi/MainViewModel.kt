@@ -188,7 +188,7 @@ class MainViewModel() : ViewModel() {
 
         EntriesLoader().writeFile(
             path = entriesPath,
-            entries = _allEntries.value
+            entries = _allEntries.value.filter { it.title.isNotBlank() && it.desc.isNotBlank() && it.tags.isNotEmpty() },
         )
 
         _toast.value = if(isAutoSave) {
