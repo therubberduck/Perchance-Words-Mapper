@@ -6,16 +6,19 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Checkbox
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
+import com.dicemonger.perchancescifi.EntriesPicker.SearchMode
 import com.dicemonger.perchancescifi.model.Entry
 import com.dicemonger.perchancescifi.model.Tag
 import com.dicemonger.perchancescifi.model.Template
@@ -92,6 +95,10 @@ object MainScreen {
         var showTemplatesPicker by remember { mutableStateOf(false) }
         var showAllEntries by remember { mutableStateOf(false) }
 
+        val searchText = remember { mutableStateOf("") }
+        val searchMode = remember { mutableStateOf(SearchMode.Title) }
+        val searchScroll = rememberLazyListState()
+
         Box(modifier = Modifier.fillMaxSize()) {
             if (currentEntry.value != null && isLoading.value.not() && showTemplatesPicker.not() && showAllEntries.not()) {
                 Row(modifier = Modifier.fillMaxSize()) {
@@ -130,6 +137,9 @@ object MainScreen {
                 EntriesPicker.Create(
                     allEntries,
                     pickEntry = actionChangeEntry,
+                    searchText,
+                    searchMode,
+                    searchScroll,
                     testTag = {
                         allTags.value.contains(it)
                     },

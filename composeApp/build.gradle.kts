@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    alias(libs.plugins.composeHotReload)
+    //alias(libs.plugins.composeHotReload)
 }
 
 layout.buildDirectory.set(
